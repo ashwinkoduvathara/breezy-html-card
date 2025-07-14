@@ -11,7 +11,7 @@ export const ContactInfo = () => {
     } else if (type === 'phone') {
       window.open(`tel:${value}`);
     } else if (type === 'whatsapp') {
-      window.open(`https://wa.me/1234567890?text=Hi! I found your digital business card`);
+      window.open(`https://wa.me/7736013411?text=Hi! I found your digital business card`);
     }
     toast({
       title: "Opening contact method",
@@ -56,7 +56,7 @@ END:VCARD`;
           className="w-full justify-start bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600 border-0 text-white shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
         >
           <Mail className="w-4 h-4 mr-3" />
-          john.doe@example.com
+          rahul@synnefo.in
         </Button>
         
         <Button
@@ -64,7 +64,7 @@ END:VCARD`;
           className="w-full justify-start bg-gradient-to-r from-green-500 to-blue-500 hover:from-green-600 hover:to-blue-600 border-0 text-white shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
         >
           <Phone className="w-4 h-4 mr-3" />
-          +1 (555) 123-4567
+          +91 7736013411
         </Button>
         
         <Button
@@ -78,7 +78,7 @@ END:VCARD`;
         <Button
           onClick={handleDownloadVCard}
           variant="outline"
-          className="w-full justify-start border-white/30 text-white hover:bg-white/20 hover:border-white/50 transition-all duration-300 hover:scale-105"
+          className="w-full justify-start border-white/30 text-black hover:bg-white/20 hover:border-white/50 transition-all duration-300 hover:scale-105"
         >
           <Download className="w-4 h-4 mr-3" />
           Save Contact

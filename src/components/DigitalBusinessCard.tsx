@@ -25,11 +25,11 @@ export const DigitalBusinessCard = () => {
               <SocialLinks />
             </div>
             <div className="space-y-8">
-              <SkillsSection />
+              {/* <SkillsSection /> */}
               <ServicesSection />
             </div>
           </div>
-          <ExperienceSection />
+          {/* <ExperienceSection /> */}
         </div>
       </div>
     </div>

@@ -1,6 +1,6 @@
 
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Code, Smartphone, Cloud, Palette } from "lucide-react";
+import { Code, Smartphone, Cloud, Palette, GraduationCap } from "lucide-react";
 
 export const ServicesSection = () => {
   const services = [
@@ -23,9 +23,9 @@ export const ServicesSection = () => {
       color: 'from-orange-500 to-red-500'
     },
     {
-      icon: Palette,
-      title: 'UI/UX Design',
-      description: 'User-centered design and prototyping',
+      icon: GraduationCap,
+      title: 'Academy',
+      description: 'Learn. Build. Succeed in tech',
       color: 'from-pink-500 to-purple-500'
     },
   ];

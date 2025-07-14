@@ -5,11 +5,11 @@ import { Github, Linkedin, Twitter, Globe, Instagram } from "lucide-react";
 
 export const SocialLinks = () => {
   const socialLinks = [
-    { name: 'Website', icon: Globe, url: 'https://johndoe.dev', color: 'from-gray-500 to-gray-700' },
-    { name: 'LinkedIn', icon: Linkedin, url: 'https://linkedin.com/in/johndoe', color: 'from-blue-600 to-blue-800' },
-    { name: 'GitHub', icon: Github, url: 'https://github.com/johndoe', color: 'from-gray-700 to-black' },
-    { name: 'Twitter', icon: Twitter, url: 'https://twitter.com/johndoe', color: 'from-blue-400 to-blue-600' },
-    { name: 'Instagram', icon: Instagram, url: 'https://instagram.com/johndoe', color: 'from-pink-500 to-purple-600' },
+    { name: 'Website', icon: Globe, url: 'https://synnefo.in/', color: 'from-gray-500 to-gray-700' },
+    { name: 'LinkedIn', icon: Linkedin, url: 'https://www.linkedin.com/company/synnefo-solutions/posts/?feedView=all', color: 'from-blue-600 to-blue-800' },
+    // { name: 'GitHub', icon: Github, url: 'https://github.com/johndoe', color: 'from-gray-700 to-black' },
+    // { name: 'Twitter', icon: Twitter, url: 'https://twitter.com/johndoe', color: 'from-blue-400 to-blue-600' },
+    { name: 'Instagram', icon: Instagram, url: 'https://www.instagram.com/synnefo.academy?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==', color: 'from-pink-500 to-purple-600' },
   ];
 
   const handleSocialClick = (url: string, name: string) => {
