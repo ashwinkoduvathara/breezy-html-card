@@ -22,14 +22,12 @@ export const ContactInfo = () => {
   const handleDownloadVCard = () => {
     const vcard = `BEGIN:VCARD
 VERSION:3.0
-FN:John Doe
-ORG:Tech Solutions Inc.
-TITLE:Full Stack Developer
-TEL:+1 (555) 123-4567
-EMAIL:john.doe@example.com
-URL:https://johndoe.dev
-ADR:;;San Francisco;CA;;94102;USA
-END:VCARD`;
+FN:Rahul PR
+ORG:Synnefo Solutions
+TITLE:Senior Network Engineer
+TEL:+91 7736013411
+EMAIL:rahul@synnefo.in
+ADR:2nd floor, Aswathi Building, Chittoor Rd, near Maharajas Metro Station, Iyyattil Junction, Ernakulam South, Kochi, Ernakulam, Kerala 682011`;
 
     const blob = new Blob([vcard], { type: 'text/vcard' });
     const url = window.URL.createObjectURL(blob);
@@ -60,7 +58,7 @@ END:VCARD`;
         </Button>
         
         <Button
-          onClick={() => handleContact('phone', '+1 (555) 123-4567')}
+          onClick={() => handleContact('phone', '+91 7736013411')}
           className="w-full justify-start bg-gradient-to-r from-green-500 to-blue-500 hover:from-green-600 hover:to-blue-600 border-0 text-white shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
         >
           <Phone className="w-4 h-4 mr-3" />
