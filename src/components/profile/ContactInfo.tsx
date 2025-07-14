@@ -33,7 +33,7 @@ ADR:2nd floor, Aswathi Building, Chittoor Rd, near Maharajas Metro Station, Iyya
     const url = window.URL.createObjectURL(blob);
     const a = document.createElement('a');
     a.href = url;
-    a.download = 'john-doe-contact.vcf';
+    a.download = 'rahul_synnefo.vcf';
     a.click();
     window.URL.revokeObjectURL(url);
     
